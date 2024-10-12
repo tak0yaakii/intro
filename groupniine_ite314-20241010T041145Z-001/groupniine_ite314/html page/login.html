@@ -1,0 +1,104 @@
+<html>
+ <head>
+  <script src="https://cdn.tailwindcss.com">
+  </script>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&amp;display=swap" rel="stylesheet"/>
+  <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap" rel="stylesheet"/>
+  <style>
+   body {
+            font-family: 'Roboto', sans-serif;
+        }
+  </style>
+ </head>
+ <body class="bg-[#f5efe7] text-gray-800">
+  <header class="bg-[#d2a15b] p-4 flex justify-between items-center border-b border-black">
+   <div class="flex items-center space-x-4">
+    <a href="#" class="flex items-center space-x-2">
+     <i class="fas fa-leaf text-black"></i>
+    </a>
+    <span class="text-2xl font-bold" style="font-family: 'Dancing Script', cursive;">
+     Healthily
+    </span>
+   </div>
+   <nav class="space-x-8">
+    <a class="text-black hover:text-gray-700" href="#">
+     HOME
+    </a>
+    <a class="text-black hover:text-gray-700" href="#">
+     ABOUT US
+    </a>
+    <a class="text-black hover:text-gray-700" href="#">
+     CONTACT
+    </a>
+   </nav>
+   <div class="flex items-center space-x-4">
+    <a class="text-black hover:text-gray-700 text-xl border border-black rounded-full p-2" href="#">
+     <i class="fas fa-user">
+     </i>
+    </a>
+    <a class="text-black hover:text-gray-700 text-xl border border-black rounded-full p-2" href="#">
+     <i class="fas fa-search">
+     </i>
+    </a>
+   </div>
+  </header>
+  <main class="flex flex-col items-center mt-16">
+   <section class="text-center">
+    <h1 class="text-5xl font-bold mb-4">
+     Log In
+    </h1>
+    <p class="text-lg mb-8">
+     Welcome back! Please log in to your Healthily account.
+    </p>
+    <form class="bg-white p-8 rounded-lg shadow-lg border border-black w-full max-w-md">
+     <div class="mb-4">
+      <label class="block text-gray-700 text-sm font-bold mb-2" for="email">
+       Email
+      </label>
+      <input class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="email" type="email" placeholder="Email"/>
+     </div>
+     <div class="mb-6">
+      <label class="block text-gray-700 text-sm font-bold mb-2" for="password">
+       Password
+      </label>
+      <input class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 mb-3 leading-tight focus:outline-none focus:shadow-outline" id="password" type="password" placeholder="******************"/>
+     </div>
+     <div class="flex items-center justify-between">
+      <button class="bg-[#d2a15b] text-white py-2 px-4 rounded-full shadow-lg border border-black" type="button">
+       Log In
+      </button>
+      <a class="inline-block align-baseline font-bold text-sm text-[#d2a15b] hover:text-[#b58d4a]" href="#">
+       Create account
+      </a>
+     </div>
+    </form>
+   </section>
+  </main>
+  <footer class="flex justify-between items-center mt-16 p-4 border-t border-black">
+   <button class="bg-[#d2a15b] text-black py-2 px-4 rounded-full shadow-lg border border-black flex items-center">
+    <i class="fas fa-map-marker-alt mr-2">
+    </i>
+    OUR LOCATION
+   </button>
+   <div class="text-center text-sm text-black">
+    <p>
+     &copy; Healthily, 2024
+    </p>
+    <p>
+     All rights reserved.
+    </p>
+   </div>
+   <div class="space-x-4 flex items-center">
+    <a class="text-black hover:text-gray-700 text-xl border border-black rounded-lg p-2" href="#">
+     <i class="fab fa-facebook-f">
+     </i>
+    </a>
+    <a class="text-black hover:text-gray-700 text-xl border border-black rounded-lg p-2" href="#">
+     <i class="fab fa-twitter">
+     </i>
+    </a>
+   </div>
+  </footer>
+ </body>
+</html>
